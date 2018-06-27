@@ -4,7 +4,7 @@ var wins= 0;
 var losses = 0;
 
 //Creates random number to guess
-var randomNumber=Math.floor(Math.random()*120+1)
+var randomNumber=Math.floor(Math.random()*102+19)
   
 //Displays variable
 $("#wins").text(wins);
@@ -19,7 +19,7 @@ var greenCrystal= Math.floor(Math.random()*12+1)
 
 //Reset game
 function reset(){
-  randomNumber=Math.floor(Math.random()*120+1);
+  randomNumber=Math.floor(Math.random()*102+19);
   $('#scoreToMatch').text(randomNumber);
   redCrystal= Math.floor(Math.random()*12+1);
   blueCrystal= Math.floor(Math.random()*12+1);
