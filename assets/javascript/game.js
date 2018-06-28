@@ -48,7 +48,7 @@ function lose(){
 //Clicking crystals
 
 //Red Crystal
-$('.red').on('click', function(){
+$("#red-crystal").on('click', function(){
   playerTotal = playerTotal + redCrystal;
 
   $('#userScore').text(playerTotal); 
@@ -64,7 +64,7 @@ $('.red').on('click', function(){
 })  
 
 //Blue Crystal
-$('.blue').on('click', function(){
+$("#blue-crystal").on('click', function(){
   playerTotal = playerTotal + blueCrystal;
 
   $('#userScore').text(playerTotal); 
@@ -79,7 +79,7 @@ $('.blue').on('click', function(){
 })  
 
 //Yellow Crystal
-$('.yellow').on('click', function(){
+$("#yellow-crystal").on('click', function(){
   playerTotal = playerTotal + yellowCrystal;
 
   $('#userScore').text(playerTotal);
@@ -94,7 +94,7 @@ $('.yellow').on('click', function(){
 }) 
   
 //Green Crystal
-$('.green').on('click', function(){
+$("#green-crystal").on('click', function(){
   playerTotal = playerTotal + greenCrystal;
 
   $('#userScore').text(playerTotal); 

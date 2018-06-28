@@ -1,3 +1,5 @@
 .jumbotron {
-    background-image: url("./assets/images/background-img.jpg");
+    background-image:url("../images/background-img.jpg");
+    background-size: cover;
+    color: white;
 };
