@@ -1,5 +1,7 @@
+/* jumbotron image and text */
 .jumbotron {
     background-image:url("../images/background-img.jpg");
     background-size: cover;
     color: white;
+    text-shadow: 5px 5px black;
 };
